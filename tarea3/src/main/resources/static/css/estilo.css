@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+.titulo-form{
+	margin: auto; 
+	text-align: center; 
+	padding: 30px;  
+	font-family: Verdana, sans-serif
+	}
+
+.titulo-error{	
+	margin: 50px 0 25px 50px; 
+	font-family: Helvetica, Verdana, sans-serif 
+	}
+
+.contenedor-lista{
+	color: red; 
+	margin-left: 50px;  
+	text-align: left; 
+	font: 16px/35px Helvetica, Verdana, sans-serif
+}
+.contenedor-resultado{
+	margin: auto;
+}
+
+.titulo-resultado{
+	margin: auto; 
+	text-align: center; 
+	padding: 50px;  
+	font-family: Helvetica, Verdana, sans-serif 
+}
+.boton-nuevo{
+	margin: auto;
+	display: block; 
+	padding: 10px; 
+	background-color: #000000; 
+	color:white; 
+	border: 0; 
+	border-radius: 5px;
+	width: 200px
+}
+.contenedor{
+	background-color: #F6F6F6; 
+	margin: auto; text-align: left; 
+	width:550px; 
+	font: 14px/30px Helvetica, Verdana, sans-serif; 
+	border-radius: 4px
+}
+
+.contenedor-form{
+	margin: 0 50px 0 50px; 
+	padding: 25px 0 25px 0
+}
+
+label{
+	display: block
+}
+input{
+	padding: 10px; 
+	width: 95%; 
+	border-radius: 5px; 
+	border: 1px solid #c1c1c1
+}
+.tel{
+	width: 45%
+}
+
+.fecha{
+	 width: 28%
+}
+.boton{
+	margin-top: 25px; 
+	display: block; 
+	padding: 10px; 
+	background-color: #000000; 
+	color:white; 
+	border: 0; 
+	width: 150px
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

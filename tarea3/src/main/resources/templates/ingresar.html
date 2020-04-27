@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ingresar alumno</title>
+ <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+	<h2 class="titulo-form">Ingreso de nuevo alumno</h2>
+    <div class="contenedor">
+  		<div class="contenedor-form">
+         	<form method="post" th:action="@{/registro}">
+         	
+	        	<label>Nombres:</label>
+	           	<input type="text" placeholder="Ingrese sus nombres" name="nombre" /> 
+	            <label>Apellidos:</label>
+	            <input type="text" placeholder="Ingrese sus apellidos" name="apellido"/>
+	            <label>Fecha de Nacimiento:</label>
+	            <input type="date" placeholder="Ingrese su fecha de nacimiento" class="fecha" name="fNacimiento"/> 
+	            <label>Lugar de Nacimiento:</label>
+	            <input type="text" placeholder="Ingrese su lugar de nacimiento" name="lNacimiento"/> 
+	            <label>Instituto o Colegio de procedencia:</label>
+	            <input type="text" placeholder="Ingrese su Instituto o Colegio de procedencia" name="colegio"/> 
+	            <label>Tel&eacute;fono fijo:</label>
+	            <input type="number" placeholder="Ingrese su n&uacute;mero de tel&eacute;fono" class= "tel" name="telefono"/>
+	            <label>Tel&eacute;fono m&oacute;vil:</label>
+	            <input type="number" placeholder="Ingrese su n&uacute;mero de celular" class="tel" name="celular"/>
+	            <input class="boton" type="submit"  value="Guardar alumno"/>
+	        
+	         </form>
+	      </div>
+	</div>
+</body>
+</html>

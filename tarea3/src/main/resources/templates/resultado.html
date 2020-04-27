@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ingresado</title>
+ <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+	<div class="contenedor-resultado"> 
+		<h2 class="titulo-resultado"><span th:text="${ingresado}"></span></h2>
+		<a th:href="@{/ingresar}" >
+			<input class="boton-nuevo" type="submit"  value="Ingresar Nuevo Alumno" >
+		</a>
+	</div>          	
+</body>
+</html>
